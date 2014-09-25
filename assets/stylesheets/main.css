@@ -1,13 +1,11 @@
 body {
-	background-color: ghostwhite;
+	background-color: white;
 }
 
 .container {
 	width: 450px;
-	height:94px;
 	border: 1px solid grey;
 	margin: 0 auto;
-	padding:0;
 }
 
 .carousel-buttons{
@@ -17,15 +15,11 @@ body {
 
 .carousel {
 	overflow: hidden;
-	width:100%;
-	margin:auto;
 }
 
 .photos {
 	list-style: none;
-	position:relative;
 	width: 200%;
-	overflow:hidden;
 	padding:0;
 	margin:0;
 }
@@ -36,7 +30,6 @@ li {
 
 .carousel img {
 	margin:6px;
-	display:inline;
 }
 
 #prev {
