@@ -1,0 +1,48 @@
+body {
+	background-color: ghostwhite;
+}
+
+.container {
+	width: 450px;
+	height:94px;
+	border: 1px solid grey;
+	margin: 0 auto;
+	padding:0;
+}
+
+.carousel-buttons{
+	position:absolute;
+	top: 8px;
+}
+
+.carousel {
+	overflow: hidden;
+	width:100%;
+	margin:auto;
+}
+
+.photos {
+	list-style: none;
+	position:relative;
+	width: 200%;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+
+li {
+	float:left;
+}
+
+.carousel img {
+	margin:6px;
+	display:inline;
+}
+
+#prev {
+	margin-left:-19px;
+}
+
+#next {
+	margin-left:446px;
+}
